@@ -54,7 +54,6 @@ def python_math(define):
     print()
 
 
-
 if __name__ == "__main__":
     print()
     print(f"\033[4mFloat vs Integer Numbers\033[0m")
