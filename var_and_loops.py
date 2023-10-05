@@ -14,7 +14,6 @@ def main():
     for i in range(n): # i in range [0,n-1]
         y[i] = 2.0 * float(i) + 1. #set y = 2i+1 as floats
 
-
     #we can also simply iterate through a variable
     for y_element in y: print(y_element)
 
