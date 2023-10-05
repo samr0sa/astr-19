@@ -1,7 +1,6 @@
 #This program will write Hello World!
 
 #This function tells the computer to print "Hello World!"
-
 def PrintHelloWorld():
 	print("Hello World!")
 
