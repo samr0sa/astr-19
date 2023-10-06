@@ -50,7 +50,7 @@ def python_math(define):
     print()
     print(f"{bold_text}Difference{reset_text}: {int_num1} - {int_num2} = {bold_text}{difference_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(difference_)}")
     print()
-    print(f"{bold_text}Product{reset_text}: {float_num1} + {int_num1} = {bold_text}{product_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(product_)}")
+    print(f"{bold_text}Product{reset_text}: {float_num1} * {int_num1} = {bold_text}{product_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(product_)}")
     print()
 
 
