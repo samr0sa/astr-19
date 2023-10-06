@@ -1,6 +1,3 @@
-bold_text = "\033[1m"
-reset_text = "\03[0m"
-
 def python_math(define):
     while True:
         try:
@@ -46,11 +43,11 @@ def python_math(define):
 
     # Print the results and their data types
     print()
-    print(f"{bold_text}Sum{reset_text}: {float_num1} + {float_num2} = {bold_text}{sum_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(sum_)}")
+    print(f"Sum: {float_num1} + {float_num2} = {sum_}\nData Type: {type(sum_)}")
     print()
-    print(f"{bold_text}Difference{reset_text}: {int_num1} - {int_num2} = {bold_text}{difference_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(difference_)}")
+    print(f"Difference: {int_num1} - {int_num2} = {difference_}\nData Type: {type(difference_)}")
     print()
-    print(f"{bold_text}Product{reset_text}: {float_num1} * {int_num1} = {bold_text}{product_}{reset_text}\n{bold_text}Data Type{reset_text}: {type(product_)}")
+    print(f"Product: {float_num1} * {int_num1} = {product_}\nData Type: {type(product_)}")
     print()
 
 
@@ -65,7 +62,7 @@ if __name__ == "__main__":
         # However, if user is done, exit command to exit code
         if define.lower() == 'exit':
             print()
-            print(f"{bold_text}Until text time.{reset_text}")
+            print(f"Until text time.")
             print()
             break  # Exit the loop if the user enters 'exit'
        
